@@ -23,7 +23,7 @@ function Topbar() {
 	}, []);
 
 	return (
-		<Navbar collapseOnSelect bg="primary" expand="md" variant="dark" style={{ position: "fixed", left: 0, top: 0, width: "100%" }}>
+		<Navbar collapseOnSelect bg="primary" expand="md" variant="dark" style={{ position: "fixed", left: 0, top: 0, width: "100%", zIndex: 10 }}>
 			<Container>
 				<Navbar.Brand>
 					<Link path="/" text="MyApp" className="text-light" />

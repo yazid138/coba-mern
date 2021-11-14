@@ -7,6 +7,7 @@ import React from "react";
 function Post() {
 	return (
 		<Routes>
+			<Route index element={<CreatePost />} />
 			<Route path="/create" element={<CreatePost />} />
 			<Route path="/:id" element={<DetailPost />} />
 		</Routes>

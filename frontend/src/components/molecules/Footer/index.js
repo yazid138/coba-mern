@@ -3,7 +3,7 @@ import { Container, Row, Col, Stack } from "react-bootstrap";
 
 function Footer() {
 	return (
-		<Container fluid as="footer" className="text-light" style={{ position: "fixed", bottom: 0, left: 0, width: "100%" }}>
+		<Container fluid as="footer" className="text-light">
 			<Row className="bg-dark">
 				<Col>
 					<Stack direction="horizontal" className="container" gap={3}>
